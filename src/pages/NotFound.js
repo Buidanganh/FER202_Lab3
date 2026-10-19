@@ -5,7 +5,7 @@ function NotFound() {
     <section className="empty-state text-center">
       <div className="display-1 fw-bold text-primary">404</div>
       <h1>Không tìm thấy trang</h1>
-      <p className="text-secondary">Đường dẫn bạn truy cập không tồn tại hoặc đã được di chuyển.</p>
+      <p className="text-secondary">Trang bạn tìm kiếm không tồn tại</p>
       <Link to="/" className="btn btn-primary">Về trang chủ</Link>
     </section>
   );

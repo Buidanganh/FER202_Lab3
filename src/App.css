@@ -1,5 +1,5 @@
 :root {
-  --brand: blue;
+  --brand: Black;
   --ink: #172033;
   --surface: #ffffff;
   --canvas: #f5f7fb;
@@ -17,12 +17,15 @@ body {
 .app-shell { min-height: 100vh; }
 
 .site-header {
-  background: linear-gradient(110deg, #12317f, var(--brand));
+  background: #fff;
+  border-bottom: 1px solid #dfe3ea;
 }
 
 .site-header .navbar { min-height: 66px; }
+.site-header .navbar-brand,
+.site-header .nav-link { color: #000 !important; }
 .site-header .nav-link { border-radius: .4rem; padding-inline: .75rem !important; }
-.site-header .nav-link.active { color: black; background: rgba(255, 255, 255, .18); }
+.site-header .nav-link.active { color: #000 !important; background: #e9ecef; }
 
 .hero-panel,
 .detail-card,

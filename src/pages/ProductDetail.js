@@ -37,9 +37,7 @@ function ProductDetail() {
       >
         ← Quay lại danh sách
       </button>
-      <p className="text-primary text-uppercase fw-semibold mt-4 mb-1">
-        Chi tiết sản phẩm
-      </p>
+      
       <h1>{product.name}</h1>
       <dl className="row mt-4 mb-0">
         <dt className="col-sm-3">ID</dt>
